@@ -157,7 +157,7 @@ std::string decodeBase64(const std::string& base64Text)
 std::string GetPrivateKey(){
     std::stringstream ss;
     
-    std::ifstream file("/Users/cedrickilo/Desktop/C++ Tuts/MusicAPI/MusicAPI/AuthKey_V55X6HGM55.p8", std::ios::binary);
+    std::ifstream file("AuthKey.p8", std::ios::binary);
     if(file)
         ss << file.rdbuf();
 //    std::cout << "File str: " << ss.str() << "\n";
