@@ -20,8 +20,8 @@ class MusicAPI {
     std::string token;
     std::string spotifyToken;
     std::string response;
-    char const *kid_ID = "V55X6HGM55";
-    char const  *apple_TeamID = "28VMANDYT6";
+    char const *kid_ID = "";
+    char const  *apple_TeamID = "";
     
     char const *spotify_clientID = "";
     char const *spotify_secretID = "";
